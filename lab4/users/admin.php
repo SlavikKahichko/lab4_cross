@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'E:\trash\OSPanel\domains\lab3\data.php';
+include '..\data.php';
 $link = mysqli_connect('localhost', 'root' , '','lab3');
 
 if($_GET["exit"]){
