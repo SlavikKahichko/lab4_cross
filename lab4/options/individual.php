@@ -1,6 +1,6 @@
 <html lang="ru">
 <head>
-    <title>Админ-панель</title>
+    <title>Изм. личн. настроек</title>
 </head>
 <body>
 <?php
