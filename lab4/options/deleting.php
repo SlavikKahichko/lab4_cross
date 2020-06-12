@@ -1,6 +1,6 @@
 <html lang="ru">
 <head>
-    <title>Админ-панель</title>
+    <title>Удаление или изменение пользователей</title>
 </head>
 <body>
 <?php
