@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'E:\trash\OSPanel\domains\lab3\data.php';
+include '..\data.php';
 if($_GET["exit"]){
     session_destroy();
     header("Location: ..\index.php");
