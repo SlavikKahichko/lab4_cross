@@ -5,7 +5,7 @@
 <body>
 <?php
 session_start();
-$connect = mysqli_connect('localhost', 'root' , '','exam');
+$connect = mysqli_connect('localhost', 'root' , '','lab3');
 
 $sql = mysqli_query($connect, "SELECT `id`, `name`, `surname`,`login`,`password`,`lang`,`role` FROM `users` WHERE `id`={$_GET['edit']}");
 ?>
