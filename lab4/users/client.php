@@ -1,5 +1,6 @@
 <?php
 session_start();
+include '..\data.php';
 $link = mysqli_connect('localhost', 'root' , '','lab3');
 if($_GET["exit"]){
     session_destroy();
